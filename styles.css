@@ -212,3 +212,19 @@ p {
       font-size: 0.9rem;
   }
 }
+nav {
+  background: #333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  animation-delay: 3s; /* Wait for home section to fade out */
+}
+
+/* Home Section */
+#home {
+  background: linear-gradient(45deg, #2c3e50, #bdc3c7);
+  animation: fadeOut 1s forwards;
+  animation-delay: 2s; /* Start fading out after 2 seconds */
+}
